@@ -1,0 +1,74 @@
+.plane{
+  position: relative;
+  left: 300px;
+  width: 1000px;
+  height: 1000px;
+  background-image: url('images/aircraft_2d.png');
+  background-repeat:no-repeat;
+
+}
+
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#logo{
+   margin-bottom: 20px;
+   position: relative;
+   left: 170px;
+
+}
+
+body {
+
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.seatDisplay{
+  float: left;
+}
+
+#planeLeft{
+  position: relative;
+  background-image:url('images/aircraft_2d(1).png');
+  left: 30px;
+  width: 350px;
+  height: 800px;
+  background-repeat:no-repeat;
+  float: left;
+}
+
+#planeRight{
+  position: relative;
+  background-image:url('images/aircraft_2d(2).png');
+  width: 350px;
+  height: 800px;
+  background-repeat:no-repeat;
+  float: left;
+}
+
+#planeSeats{
+}
+
+#cNumber{
+
+  margin-left: 15px;
+  color: red;
+  letter-spacing: 5px;
+}
+
+#eClass, #bClass, #pClass{
+  letter-spacing: 10px;
+}
+
+#seatInfo{
+ position: relative;
+  right: 320px;
+  height: 100px;
+  width: 200px;
+  background-color: white;
+  float: right;
+}
