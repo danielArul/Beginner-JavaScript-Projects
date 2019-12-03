@@ -6,58 +6,35 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-  <title>Continental Airlines</title>
+  <title>Code Player</title>
 </head>
 
 <body>
-  <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary ">
-      <img src='Images/conLogo.jpg'>
-      <div class="dropdown">
-        <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Choose flight for flight info!
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <a class="dropdown-item" id="flight1" href="#">New York -> Mumbai</a>
-          <a class="dropdown-item" id="flight2">Colombo -> Bangalore</a>
-          <a class="dropdown-item" id="flight3">Singapore -> Tokyo</a>
-        </div>
-      </div>
-    </nav>
+  <div id="topbar">
+    <div id="logo">
+      CodePlayer
+    </div>
+    <div id="buttons" >
+      <div class="toggleButton btn btn-primary active"  id="htmlb">HTML</div>
+      <div class="toggleButton btn btn-success" id="cssb">CSS</div>
+      <div class="toggleButton btn btn-danger" id="javascriptb">JavaScript</div>
+      <div class="toggleButton btn btn-warning active" id="outputb">Output</div>
+
+    </div>
+
   </div>
 
-  <!-- <div id='logo'>
-    <img  src='Images/conLogo.jpg'>
-  </div> -->
-  <div id="thePlane">
-    <div id="flightInfo">
-    </div>
-    <div id="planeLeft">
-    </div>
-    <div class="seatDisplay">
-      <div id="cNumber">
-      </div>
-
-      <div id="eClass">
-      </div>
-
-      <div id="bClass">
-      </div>
-
-      <div id="pClass">
-      </div>
-    </div>
-
-    <div id="planeRight">
-    </div>
-
-    <div id="seatInfo">
-    </div>
+  <div id="codeContainer">
+    <textarea id="htmlText" class="panel">HelloWorld</textarea>
+    <textarea id="cssText" class="panel hidden"></textarea>
+    <textarea id="javascriptText" class="panel hidden"></textarea>
+    <iframe id="outputText" class="panel"></iframe>
   </div>
+
+
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
   </script>

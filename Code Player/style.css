@@ -1,0 +1,48 @@
+body{
+  padding: 0px;
+
+}
+
+.panel{
+    float: left;
+    width:50%;
+}
+
+textarea{
+
+  width: 50%;
+  resize: none;
+}
+#topbar{
+
+  background-color: #b3ffff;
+  height: 50px;
+  width: 100%;
+  border-radius: 10%;
+  margin-top: 10px;
+  padding-top: 7px;
+
+}
+
+#outputText{
+  border: none;
+}
+
+#logo{
+  float: left;
+}
+
+#buttons{
+
+  margin: 0 auto;
+  width: 350px;
+}
+
+.toggleButton{
+  float: left;
+  padding: 2px;
+}
+
+.hidden{
+  display: none;
+}
