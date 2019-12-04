@@ -1,48 +1,48 @@
-body{
+body {
   padding: 0px;
-
 }
 
-.panel{
-    float: left;
-    width:50%;
+.panel {
+  float: left;
+  width: 50%;
 }
 
-textarea{
-
+textarea {
   width: 50%;
   resize: none;
-}
-#topbar{
+  border: 2px solid red;
 
+}
+
+#topbar {
   background-color: #b3ffff;
   height: 50px;
   width: 100%;
-  border-radius: 10%;
-  margin-top: 10px;
   padding-top: 7px;
-
 }
 
-#outputText{
-  border: none;
+#outputText {
+  border-style: solid;
+  border-width: 3px;
+  border-color: green;
 }
 
-#logo{
+#logo {
   float: left;
+  font-size: 150%;
+  color: blue;
 }
 
-#buttons{
-
+#buttons {
   margin: 0 auto;
   width: 350px;
 }
 
-.toggleButton{
+.toggleButton {
   float: left;
   padding: 2px;
 }
 
-.hidden{
+.hidden {
   display: none;
 }
